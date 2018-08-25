@@ -14,5 +14,5 @@ import retrofit2.http.POST;
 public interface TestApi {
 
     @POST("unite/service")
-    Observable<ResponseBody> getImages(@Body RequestBody param);
+    Observable<ResponseData> getImages(@Body RequestBody param);
 }
